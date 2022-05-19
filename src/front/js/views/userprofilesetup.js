@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
 
-export const UserProfileSetup = () => {
+export const UserProfileSetup  = () => {
   return (
-    <div className="container my-5">
+    <div className="container my-5"> 
       <h1>*Usuario*, dejanos conocerte...</h1>
       <form>
         <div className="mb-3">
